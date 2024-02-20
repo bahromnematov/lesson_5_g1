@@ -7,6 +7,7 @@ import 'package:lesson_5_g2/second_page.dart';
 
 import 'apple_ui/apple_products.dart';
 import 'home_page.dart';
+import 'intro/intro_ui.dart';
 import 'lesson11/signin_page.dart';
 import 'lesson12/darggeble_page.dart';
 import 'lesson8/four_page.dart';
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home:AppleProducts(),
+      home:IntroUi(),
       routes: {
         // Homework1.id:(context)=>Homework1(),
         Homework2.id:(context)=>Homework2(),

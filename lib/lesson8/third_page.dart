@@ -23,7 +23,7 @@ class _ThirdPageState extends State<ThirdPage> {
                 centerTitle: true,
                 title: Text("Lesson 8"),
                 background: Image.asset(
-                  "assets/img.png",
+                  "assets/intro_1.jpg",
                   fit: BoxFit.cover,
                 )),
           ),
