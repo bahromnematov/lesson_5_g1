@@ -5,6 +5,7 @@ import 'package:lesson_5_g2/lesson8/first_page.dart';
 import 'package:lesson_5_g2/lesson9/animation_page.dart';
 import 'package:lesson_5_g2/second_page.dart';
 
+import 'amazon/amazon_ui.dart';
 import 'apple_ui/apple_products.dart';
 import 'home_page.dart';
 import 'intro/intro_ui.dart';
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home:IntroUi(),
+      home:AmazonUi(),
       routes: {
         // Homework1.id:(context)=>Homework1(),
         Homework2.id:(context)=>Homework2(),
